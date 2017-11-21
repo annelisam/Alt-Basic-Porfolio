@@ -12,11 +12,12 @@ body {
     padding: 0;
     font-family: sans-serif;
     background-color: #777;
+    color: #474747;
     background-image: url("../images/spiration-light.png");
     min-height:100%; 
-    color: #777777;
     width: 100%;
     position: absolute; 
+    font-weight: lighter;
     padding-bottom:150px;
 }
 
@@ -49,8 +50,9 @@ header a:hover {
 
 div.container {
     width: 960px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 0;
+    border: none;
     position: absolute;
 }
 
@@ -87,7 +89,7 @@ div.container {
 
 div.body1 {
     width:960px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 0;
     margin-top: 25px;
     top: 100px;
@@ -118,7 +120,6 @@ div.body1 {
 }
 
 #main-content p {
-    color: #474747;
     text-align: justify;
     font-size: 12pt;
     line-height: 16pt;
@@ -197,6 +198,8 @@ img:hover {
 footer {
     width:100%;
     margin-top: -50px;
+    margin: 0px auto;
+    background-color:#666666;
     
 }
 
@@ -206,7 +209,7 @@ footer {
             right: 0;
             bottom: 0;
             margin: 0;
-            height: 50px;
+            height: 25px;
             width: 100%;
             background-color:#666666;
             color: white;
@@ -243,4 +246,25 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #4aaaa5;
     opacity: 0.5;
+}
+
+/* Portfolio Images */
+.image-wrapper {
+    position: relative;
+    width: 275px;
+    height: 250px;
+
+}
+.image-wrapper p {
+    position: absolute;
+    top: 75%;
+    border: 0px solid #4aaaa5;
+    background-color: #4aaaa5;
+    width: 275px;
+    color: #FFF;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 10px;
+    height: 35px;
 }
